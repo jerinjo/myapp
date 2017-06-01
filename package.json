@@ -1,0 +1,22 @@
+{
+  "name": "myapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": "true",
+  "start": "node server.js",
+  "scripts": {
+    "test": "mocha --recursive test"  },
+  "author": "jerin john",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "chai2-json-schema": "^1.2.0",
+    "mocha": "^3.4.2",
+    "superagent": "^3.5.2"  },
+  "dependencies": {
+    "config": "^1.26.1",
+    "express": "^4.15.3",
+    "pg": "^6.2.3"
+  }
+}

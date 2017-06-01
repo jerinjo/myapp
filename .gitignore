@@ -1,0 +1,12 @@
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# npm
+node_modules
+logs
+coverage
+*.log
+*.gz
+.grunt
